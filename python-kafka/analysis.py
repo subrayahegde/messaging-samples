@@ -6,7 +6,7 @@ consumer = kafka.KafkaConsumer(
     RIDES_CONFIRMED_KAFKA_TOPIC, bootstrap_servers="localhost:9092"
 )
 
-print("Listening Confirmed Rides!")
+print("Listening Confirmed Rides !")
 while True:
     for data in consumer:
         message = json.loads(data.value.decode())
