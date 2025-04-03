@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-mongo-rabbitmq",
+  "version": "1.0.0",
+  "description": "An consumer-producer example with rabbitmq message broker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "rabbitmq",
+    "mongo",
+    "queue",
+    "broker",
+    "message"
+  ],
+  "author": "Piero Corasaniti",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "uuid": "^3.3.2"
+  }
+}
